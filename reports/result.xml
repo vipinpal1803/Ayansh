@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="93.036" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="BookCart Application tests" name="Add to cart - #1.1" time="34.535">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at steps.AddToCartSteps.theCartBadgeShouldBeUpdated(AddToCartSteps.java:38)
+	at ✽.the cart badge should be updated(file:///E:/AashviCucumber/Letscode/src/test/java/features/addToCart.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+And user login into the application with "ortoni" and "Pass1234"............passed
+And user search for a "Roomies".............................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be updated.......................................failed
+]]></system-out>
+</testcase>
+<testcase classname="BookCart Application tests" name="Add to cart - #1.2" time="29.048">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at steps.AddToCartSteps.theCartBadgeShouldBeUpdated(AddToCartSteps.java:38)
+	at ✽.the cart badge should be updated(file:///E:/AashviCucumber/Letscode/src/test/java/features/addToCart.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+And user login into the application with "ortonikc" and "Pass1234"..........passed
+And user search for a "The Simple Wild".....................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be updated.......................................failed
+]]></system-out>
+</testcase>
+<testcase classname="BookCart Application tests" name="Add to cart - #2.1" time="28.738">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at steps.AddToCartSteps.theCartBadgeShouldBeUpdated(AddToCartSteps.java:38)
+	at ✽.the cart badge should be updated(file:///E:/AashviCucumber/Letscode/src/test/java/features/addToCart.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+And user login into the application with "ortoni" and "Pass1234"............passed
+And user search for a "Roomies".............................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be updated.......................................failed
+]]></system-out>
+</testcase>
+</testsuite>
